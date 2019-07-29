@@ -1,6 +1,8 @@
 # TooltipApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Navigate to project folder -> Run 'npm install'to install node_modules.
+and then 'npm start' to run the project
 
 ## Development server
 
