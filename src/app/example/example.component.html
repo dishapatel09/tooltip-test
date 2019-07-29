@@ -1,0 +1,24 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <button tooltip="top"
+              [tipMessage]="'You clicked me!!!'"
+              [tipTrigger]="trigger"
+              [visible]="showTip"
+              class="btn btn-lg btn-primary">
+        Click Me
+      </button>
+      <span>&nbsp;&nbsp;&nbsp;</span>
+      <button tooltip="top"
+              [tipMessage]="'You clicked me again!!!'"
+              [tipTrigger]="trigger"
+              [visible]="showTip"
+              class="btn btn-lg btn-primary ml-2">
+        Click Me Again
+      </button>      
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
